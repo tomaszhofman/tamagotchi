@@ -3,13 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <title>Tamagotchi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./app.js" type="module" defer></script>
+
     <link href="./styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="gameBoy">
-      <p class="bar">Energy <span class="health" /></p>
-    </div>
+      <div class="screen">
+        <div class="container">
+          <div class="indicators">
+            <figure>
+              <div class="heart-icon"></div>
+              <figcaption class="heading-secondary">10</figcaption>
+            </figure>
+            <figure>
+              <div class="hunger-icon"></div>
+              <figcaption class="heading-secondary">10</figcaption>
+            </figure>
+            <figure>
+              <div class="sleep-icon"></div>
+              <figcaption class="heading-secondary">10</figcaption>
+            </figure>
+            <figure>
+              <div class="fun-icon"></div>
+              <figcaption class="heading-secondary">10</figcaption>
+            </figure>
+          </div>
+          <div class="tamagotchi">cat</div>
+          <div class="status">
+            <p class="heading-primary">Happy</p>
+          </div>
+        </div>
+      </div>
 
-    <script src="./app.js" type="module"></script>
+      <ul class="actions">
+        <li class="action">
+          <div class="hunger-icon"></div>
+        </li>
+        <li class="action">
+          <div class="sleep-icon"></div>
+        </li>
+        <li class="action">
+          <div class="fun-icon"></div>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

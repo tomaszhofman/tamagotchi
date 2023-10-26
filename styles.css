@@ -195,11 +195,6 @@ body {
   height: 150px;
 }
 
-.sprite-hungry {
-  background: url("./icons/tamagotchi.png") -21px -1030px;
-  height: 150px;
-}
-
 .sprite-eating-1 {
   background: url("./icons/tamagotchi.png") -21px -1200px;
   height: 150px;

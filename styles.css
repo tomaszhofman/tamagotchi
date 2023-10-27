@@ -160,13 +160,8 @@ body {
   margin: 4rem auto;
 }
 
-.sprite-standing {
+.sprite-happy {
   background: url("./icons/tamagotchi.png") -21px -20px;
-  height: 150px;
-}
-
-.sprite-sit {
-  background: url("./icons/tamagotchi.png") -21px -200px;
   height: 150px;
 }
 
@@ -180,13 +175,8 @@ body {
   height: 150px;
 }
 
-.sprite-sleeping-1 {
+.sprite-sleeping {
   background: url("./icons/tamagotchi.png") -21px -670px;
-  height: 150px;
-}
-
-.sprite-sleeping-2 {
-  background: url("./icons/tamagotchi.png") -21px -850px;
   height: 150px;
 }
 
@@ -195,23 +185,13 @@ body {
   height: 150px;
 }
 
-.sprite-eating-1 {
+.sprite-eating {
   background: url("./icons/tamagotchi.png") -21px -1200px;
   height: 150px;
 }
 
-.sprite-eating-2 {
-  background: url("./icons/tamagotchi.png") -21px -1380px;
-  height: 150px;
-}
-
-.sprite-playing-1 {
+.sprite-playing {
   background: url("./icons/tamagotchi.png") -21px -1570px;
-  height: 150px;
-}
-
-.sprite-playing-2 {
-  background: url("./icons/tamagotchi.png") -21px -1760px;
   height: 150px;
 }
 

@@ -5,8 +5,11 @@ export default class Game {
     this.tamagotchi = new Tamagotchi();
   }
 
-  start = ({ healthElement, hungerElement, energyElement, funElement }) => {
-    this.tamagotchi.mount({ healthElement });
-    console.log("Game started");
+  start = (domElements) => {
+    this.tamagotchi.mount(domElements);
+
+    setInterval(() => {
+      this.tamagotchi.update();
+    }, 1000);
   };
 }

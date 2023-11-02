@@ -40,7 +40,7 @@ export default class Tamagotchi {
       }
     }
 
-    if (this.health.value <= 0 || this.energy.value <= 0) {
+    if (this.hunger.value <= 0 || this.energy.value <= 0) {
       this.decrementByOne(this.health);
     }
 
